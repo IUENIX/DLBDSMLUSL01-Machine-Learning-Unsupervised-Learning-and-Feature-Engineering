@@ -51,7 +51,7 @@ your_project_folder/
 |__ mental-heath-in-tech-2016_20161114.csv
 |__ README.txt
 
-> IMPORTANT! **Please Notice:** The CSV filename from the source contains a typo ("heath" instead of "health"). This is the original Kaggle filename do not rename it, or update the `DATA_FILE` constant near the top of the script. If you modify it this script will fail to provide the proper desired /scoped output as the reviewer will download the file from its source, not your computer.
+> IMPORTANT! **Please Notice:** The CSV filename from the source contains a typo ("heath" instead of "health"). This is the original Kaggle filename do not rename it, or update the 'DATA_FILE' constant near the top of the script. If you modify it this script will fail to provide the proper desired /scoped output as the reviewer will download the file from its source, not your computer.
 
 The dataset can be downloaded from: https://www.kaggle.com/osmi/mental-health-in-tech-2016 link provided in the 1.1 Task 1: Mental Health in Technology related Jobs task description.
 
@@ -88,7 +88,7 @@ You will/should be able to see (venv) appear at the start of your terminal promp
 
 ***** 5. Install required packages
 
-This is not y/n process. Once you run the command the installation of the packages begin.
+This is not y/n process. Once you run the command the installation of the packages begins.
 
 Run:
 
@@ -121,7 +121,7 @@ Run:
 2. python mental_health_analysis.py > output.txt 2>&1
 
 
-> NOTICE! The `PYTHONIOENCODING=utf-8` setting is required because the script uses Unicode characters (such as arrows and box-drawing characters) that the default Windows code page (cp1252) cannot encode when redirecting to a file.
+> NOTICE! The (PYTHONIOENCODING=utf-8) setting is required because the script uses Unicode characters (such as arrows and box-drawing characters) that the default Windows code page (cp1252) cannot encode when redirecting to a file.
 
 ####### Saving the console output to a file (Mac/Linux)
 
@@ -171,7 +171,7 @@ With the default random seed ( RANDOM_STATE = 42 ) and the OSMI 2016 dataset, th
 ######### Possible Troubleshooting Experience
 
 * ModuleNotFoundError: No module named 'pandas'*
-The required packages are not installed. Run `pip install numpy pandas matplotlib seaborn scikit-learn` again, making sure the virtual environment is activated if you created one.
+The required packages are not installed. Run ( pip install numpy pandas matplotlib seaborn scikit-learn ) again, making sure the virtual environment is activated if you created one.
 
 ** FileNotFoundError: mental-heath-in-tech-2016_20161114.csv **
 The CSV file is not in the same folder as the script, or the filename is different. Check the exact filename it includes the typo "heath" (not "health").
@@ -242,7 +242,7 @@ References for the pipeline implementation draws on standard patterns/coding fro
 - **** Géron, A. (2022). Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow **** (3rd ed.). O'Reilly Media.
 - ***** Scikit-learn user guide *****: https://scikit-learn.org/stable/user_guide.html
 - ****** Course book DLBDSMLUSL01 ******, IU International University of Applied Sciences.
-- ... The script header of (python mental_health_analysis.py) docstring contains the full implementation and algorithmic reference list in formal academic citation and section by section attribution format.
+- ******* The script header of (python mental_health_analysis.py) docstring contains the full implementation and algorithmic reference list in formal academic citation and section by section attribution format.
 
 -------------------
 DOCUMENT END

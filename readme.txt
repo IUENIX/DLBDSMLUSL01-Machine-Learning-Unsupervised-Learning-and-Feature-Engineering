@@ -207,7 +207,7 @@ Top row, far right: "Was your anonymity protected..." overlaps into "mh_benefits
 Bottom row, third panel: "Were you aware of the options..." overlaps into "have you sought treatment..." (or similar)
 Bottom row, far right: title is also cut off / overlapping
 
-This happens because some of the previous employer questions kept their full long form column names they were not in the SHORT_LABELS dictionary built in the script. Those questions are real and meaningful for the cluster interpretation. They are what defines Cluster 2.
+This happens because some of the previous employer questions kept their full long form column names they were not in the SHORT_LABELS dictionary built in the script. Those questions are real and meaningful for the cluster interpretation. They are what defines Cluster 2. A dictionary was thought to be benefitial to be implemented but a choice not to do so was taken in order not to make tagging changes from the data source.
 
 ----------------------------------
 
@@ -231,7 +231,7 @@ your_project_folder/
 
 ########### License & Attribution
 
-- * Code:* Student referenced implementation for academic coursework ref. DLBDSMLUSL01 from different resources.
+- * Code:* Student referenced and adapted coding implementation for academic coursework ref. DLBDSMLUSL01 Task1. from different resources.
 
 - ** Dataset:** OSMI Mental Health in Tech Survey 2016. Made available by Open Sourcing Mental Illness Ltd. on Kaggle (https://www.kaggle.com/osmi/mental-health-in-tech-2016).
 

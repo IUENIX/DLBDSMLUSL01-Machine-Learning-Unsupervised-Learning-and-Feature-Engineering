@@ -20,8 +20,8 @@ This project applies an unsupervised machine learning pipeline (PCA + t-SNE + K-
 
 ### Requirements
 
-- * Python 3.9 or newer** (student tested on 3.14)
-- ** The following Python packages:
+- Python 3.9 or newer** (student tested on 3.14)
+- The following Python packages:
   - 'numpy'
   - 'pandas'
   - 'matplotlib'

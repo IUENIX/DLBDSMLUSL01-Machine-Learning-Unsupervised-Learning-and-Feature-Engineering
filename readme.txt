@@ -49,7 +49,7 @@ Your folder structure content should look like below:
 your_project_folder/
 |__ mental_health_analysis.py
 |__ mental-heath-in-tech-2016_20161114.csv
-|__ README.md
+|__ README.txt
 
 > IMPORTANT! **Please Notice:** The CSV filename from the source contains a typo ("heath" instead of "health"). This is the original Kaggle filename do not rename it, or update the `DATA_FILE` constant near the top of the script. If you modify it this script will fail to provide the proper desired /scoped output as the reviewer will download the file from its source, not your computer.
 
@@ -216,7 +216,7 @@ This happens because some of the previous employer questions kept their full lon
 your_project_folder/
 |__ mental_health_analysis.py                # Main pipeline script
 |__ mental-heath-in-tech-2016_20161114.csv   # Input dataset
-|__ README.md                                # This file
+|__ README.txt                               # This file
 |__ (generated outputs after running)
     |__ 00_exploration.png
     |__ 01_pca_scree.png
